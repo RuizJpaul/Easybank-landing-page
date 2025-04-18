@@ -179,50 +179,62 @@ h3{
     color: hsl(233, 8%, 62%);
 }
 footer{
-    border: solid 1px black;
     width: 100%;
-    height: 160px;
-}
-footer{
+    height: 180px;
+    display: flex;
+    align-items: center;
     background-color: hsl(233, 26%, 24%);
 }
+footer section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 145px 0px 145px;
+}
+#foot-uno{
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#cuadro-paginas-footer{
+    display: flex;
+    justify-content: space-between;
+}
+#cuadro-paginas-footer button{
+    background-color: transparent;
+    border: none;
+}
 #cuadro-logo-footer{
-    border: solid 1px black;
+    width: 150px;
+    height: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.cuadros-primera-parte{ 
-    border: solid 1px black;
-    width: 50%;
+.cajas-enlaces-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
-#cuadro-imagen-portada{
-    position: relative;
-    overflow: hidden;
+.cajas-enlaces-footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
 }
-#imagen-manchas{
-    top: -260px;
-    right: -500px;
-    position: absolute;   
-    z-index: 0; 
+#foot-cuatro{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 20px;
 }
-#imagen-celulares{
-    border: solid 1px black;
-    position: absolute;
-    z-index: 2;
-    overflow: hidden;
-}*/
+#foot-cuatro button{
+    width: 160px;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 30px 15px 30px;
+    color: white;
+    background-color: hsl(136, 65%, 51%);
+    font-size: 13px;
+}
+#foot-cuatro p{
+    color: hsl(233, 8%, 62%);
+    font-size: 14px;
+}
